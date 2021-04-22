@@ -1,0 +1,132 @@
+.container {
+    display:flex;
+    height:100vh;
+}
+
+.welcome-screen {
+    background-image: url(https://st2.depositphotos.com/2100659/11625/v/950/depositphotos_116259470-stock-illustration-technology-vector-logo-concept-illustration.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display:flex;
+    flex:1;
+    justify-content: center;
+
+}
+.welcome-sceen-content > h1 {
+    font-size:3rem;
+}
+.welcome-sceen-content > p {
+    font-size:2rem;
+    color: rgb(212, 94, 26);
+    font-weight: bold;
+}
+.welcome-sceen-content {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.welcome-screen-underline {
+    width:200px;
+    height:10px;
+    background-color: cyan;
+    border-radius: 20px;
+}
+
+.login-screen {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    align-items:center;
+    background-color: aqua;
+
+}
+.login-screen-top {
+    color: white;
+    font-size: 1.5rem;
+}
+.login-screen-top-h1 {
+    margin-left: -100px;
+    z-index: 1;
+}
+.login-screen-top-logo {
+    background-image: url(https://seeklogo.com/images/C/cat-logo-E6BC30BEB2-seeklogo.com.png);
+    background-size: cover;
+    width:150px;
+    height:120px;
+    position: absolute;
+    top: 10px;
+    right:350px
+}
+.login-screen-middle {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-screen-middle-input {
+
+}
+.login-screen-bottom {
+    position: absolute;
+    bottom:0;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px 0 10px 0;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 85%;
+    padding: 10px 0px 10px 50px ;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+  
+h2 {
+    color: green;
+}
+
+.Primary-btn {
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    height:40px;
+    font-size:1rem;
+    color: white;
+    background-color: rgb(243, 213, 45) ;
+    margin: 0 20px 0 20px;
+}
+.Primary-btn:hover {
+    background-color:aqua;
+}
+.login-screen-password-review {
+    display : inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width:300px;
+    margin-top: -40px;
+}
+
+.progress {
+    display: inline-flex;
+    width:100px;
+}
+.progress-bar {
+    background-color:white;
+    width:50px;
+    border-radius: 5px;
+    height:5px;
+    margin-left: 5px;
+}

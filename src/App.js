@@ -1,6 +1,6 @@
 import Home from './Pages/Home'
 import Loggin from './Pages/Loggin'
-import SignUp from './Pages/SignUp'
+import SignUp from './Pages/Register'
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,9 +14,6 @@ function App() {
     <div className="App">
       <Router>
         <div>
-
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/loggin">
               <Loggin />
