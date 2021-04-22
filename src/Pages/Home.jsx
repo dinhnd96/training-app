@@ -1,14 +1,18 @@
 import './Home.css';
 
+import logo from '../assets/logo.svg'
+import menubar from '../assets/bars-solid.svg'
+import home from '../assets/home-solid.svg'
+
 
 function Home() {
   return (
     <div class="sidenav">
-  <a href="#"><i class="fab fa-facebook-square"></i></a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
+      <a href="#"><img src={menubar}></img></a>
+      <a href="#"><img src={logo}></img></a>
+      <a href="#"><img src={home}></img></a>
+      <a href="#">Contact</a>
+    </div>
   );
 }
 
