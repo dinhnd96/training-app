@@ -148,6 +148,7 @@ body {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+
   }
   
   .sidenav a {
@@ -156,6 +157,7 @@ body {
     font-size: 25px;
     color: #ffffff;
     display: block;
+    margin: auto;
   }
   
   .sidenav a:hover {
