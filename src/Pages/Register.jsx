@@ -4,7 +4,8 @@ import Button from '../Component/Button'
 
 
 
-function Loggin() {
+
+function Register() {
   return (
     <div className="container">
       <div className="welcome-screen">
@@ -17,7 +18,7 @@ function Loggin() {
 
       <div className="login-screen">
         <div className="login-screen-top">
-          <h1 className="login-screen-top-h1">LOG IN</h1>
+          <h1 className="login-screen-top-h1">Sign Up</h1>
           <h1>HERE !</h1>
           <span className="login-screen-top-logo"></span>
         </div>
@@ -26,12 +27,27 @@ function Loggin() {
           <div className="login-screen-middle-input" >
             <InputField />
             <InputField />
+            <InputField />
           </div>
+          <div className="login-screen-password-review">
+          <div className="login-screen-password-review-content" >
+            <p>Mật khẩu đặt chuẩn</p>
+          </div>
+          <div className="login-screen-password-review-progress" >
+            <div className="progress">
+                  <div className="progress-bar"></div>
+                  <div className="progress-bar"></div>
+                  <div className="progress-bar"></div>
+            </div>
+          </div>
+        </div>
           <div className="login-screen-middle-btn">
             <Button />
             <Button />
           </div>
         </div>
+
+        
 
         <div className="login-screen-bottom">
           <p>Một sản phẩm của New Product Team</p>
@@ -42,4 +58,4 @@ function Loggin() {
   );
 }
 
-export default Loggin
+export default Register
