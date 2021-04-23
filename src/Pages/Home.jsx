@@ -12,6 +12,7 @@ function Home() {
       <a className="sidenav-icon" href="#"><img src={home}></img></a>
       <a className="sidenav-icon" href="#"><img src={celendar}></img></a>
     </div>
+
   );
 }
 
