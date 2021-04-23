@@ -1,6 +1,7 @@
 import Home from './Pages/Home'
 import Loggin from './Pages/Loggin'
 import SignUp from './Pages/Register'
+import AddValue from './Pages/AddValue'
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path="/">
               <Home />
+            </Route>
+            <Route path="/addvalue">
+              <AddValue/>
             </Route>
           </Switch>
         </div>

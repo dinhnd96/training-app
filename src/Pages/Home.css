@@ -64,9 +64,7 @@
     flex-direction: column;
 }
 
-.login-screen-middle-input {
 
-}
 .login-screen-bottom {
     position: absolute;
     bottom:0;
@@ -173,7 +171,7 @@ body {
 
   .sidenav-icon {
       background-color: transparent;
-      color: cyan;
+      color: rgb(0, 195, 255);
       width:60px;
       height:80px;
   }
@@ -187,6 +185,9 @@ body {
     display: flex;
     justify-content:space-around;
     flex:1
+  }
+  .Header-left h1 {
+    color:rgb(0, 195, 255);
   }
   .Header-left-input {
       display: flex;
@@ -236,11 +237,26 @@ body {
     flex-wrap: wrap;
 }
 .home-page-content-celendar {
-
+    margin-left: 30px;
+}
+.home-page-content-celendar h3 {
+    margin-left: 50px;
+    color:rgb(148, 148, 148);
 }
     /* Product*/
-
+.addvalue {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(0, 195, 255);
+    top: -794px;
+    right: 250px;
+}
 .Product {
+    border: 1px solid rgb(131, 131, 131);
+    margin-bottom: 20px;
+    margin-top:40px;
+    box-shadow: -3px 4px 5px  rgb(148, 148, 148);
 }
 .Product-img {
     background-image: url(https://webcaycanh.com/wp-content/uploads/2020/08/cay-xuong-rong-bong-gon.jpg);
@@ -251,7 +267,11 @@ body {
     background-origin: content-box;
 }
 .Product-content {
-
+    padding:20px;
+}
+.Product-content span {
+    border-radius: 8px;
+    border: 1px solid rgb(54, 54, 54);
 }
 
 /* Calendar */
@@ -259,23 +279,15 @@ body {
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #1abc9c;
-  text-align: center;
-}
-
 .month ul {
   margin: 0;
   padding: 0;
 }
 
 .month ul li {
-  color: white;
-  font-size: 20px;
+  color: rgb(97, 97, 97);
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 3px;
 }
 
 .month .prev {
@@ -291,7 +303,7 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
   margin: 0;
   padding: 10px 0;
-  background-color: #ddd;
+
 }
 
 .weekdays li {
@@ -303,7 +315,6 @@ body {font-family: Verdana, sans-serif;}
 
 .days {
   padding: 10px 0;
-  background: #eee;
   margin: 0;
 }
 
@@ -318,9 +329,14 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .days li .active {
+    background:#ffffff;
   padding: 5px;
-  background: #1abc9c;
-  color: white !important
+  border:1px solid rgb(148, 148, 148);
+  border-radius:10px;
+    box-shadow: 1px 2px 5px rgb(148, 148, 148);
+}
+.days li .blur {
+    color:#cfd8d5;
 }
 .home-page-content-celendar-header-sidenav-icon {
     width:40px;
@@ -329,4 +345,110 @@ body {font-family: Verdana, sans-serif;}
 .home-page-content-celendar-header {
     display:flex;
     margin-bottom:10px;
+}
+.home-page-content-celendar-header-sidenav-month {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-left: 20px;
+    color:rgb(148, 148, 148);
+}
+
+
+.home-page-content-out-of-date li {
+    list-style-type:disc;
+}
+.home-page-content-out-of-date li::marker {
+    color:rgb(0, 195, 255);
+}
+
+.home-page-content-contructor-img {
+    background-image:url(https://media.istockphoto.com/vectors/office-vector-id1002049972?b=1&k=6&m=1002049972&s=612x612&w=0&h=pb5XBbqB1k9pPfNtPqmXSYf6xXTqeI7qjIB_u1Peh1s=);
+    width:400px;
+    height:400px;
+
+}
+.home-page-content-contructor-bottom {
+    margin-top:440px;
+    margin-left: 50px;
+    color: #cfd8d5;
+}
+
+/* add items */
+
+.addvalue-dashboard {
+    position: relative;
+    top: -1300px;
+    left: 500px;
+    width: 1200px;
+    height: 800px;
+    background-color: #f1f1f1;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.addvalue-dashboard-title {
+    position: absolute;
+}
+.addvalue-dashboard-close {
+    width:20px;
+    height:20px;
+    position: relative;
+    left:1115px;
+}
+.addvalue-dashboard-close-image {
+    width:20px;
+    height:20px;
+    position: relative;
+    left:1015px;
+    top:100px;
+}
+.addvalue-dashboard-left {
+    margin-top: 50px;
+    margin-left: -35px;
+}
+
+.addvalue-dashboard-left-input input {
+    min-width: 500px;
+}
+.addvalue-dashboard-right {
+    background-image: url(https://cb.scene7.com/is/image/Crate/EllaWhiteTableLampOffSHF15);
+    background-size: cover;
+    width: 500px;
+    height: 387px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.addvalue-dashboard-middle {
+    width:500px;
+}
+.addvalue-dashboard-middle input {
+    width:1046px;
+    height:100px;
+    border-radius:20px;
+
+}
+.addvalue-dashboard-bottom {
+    width: 92%;
+    justify-content: space-between;
+    display: flex;
+}
+.addvalue-dashboard-left-input-icon {
+    width:30px;
+    height:30px;
+
+    
+}
+.addvalue-dashboard-left-input a {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 495px;
+    top: 425px;
+}
+.addvalue-dashboard-bottom ::after {
+    content:"";
+    width:1000px;
+    height:5px;
+    background-color:red;
 }

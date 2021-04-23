@@ -6,7 +6,7 @@ function Product() {
             </div>
             <div className="Product-content">
                 <h6>Sen đá</h6>
-                <p>Trang trí</p>
+                <span className="active">Trang trí</span>
                 <p>Đồ vật có thể dùng trang trí</p>
             </div>
             
